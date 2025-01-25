@@ -1,8 +1,11 @@
 package com.example.vidium.dto.response;
 
+import lombok.Data;
+
 import java.time.LocalDateTime;
 
-public class UserReponse {
+@Data
+public class UserResponse {
     private String username;
     private String firstName;
     private String lastName;

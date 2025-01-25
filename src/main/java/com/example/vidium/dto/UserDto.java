@@ -1,13 +1,13 @@
 package com.example.vidium.dto;
 
-import com.yourblog.model.User;
+import com.example.vidium.model.User;
 import lombok.Data;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
- * DTO for {@link com.yourblog.model.User}
+ * DTO for {@link com.example.vidium.model.User}
  */
 @Data
 public class UserDto implements Serializable {

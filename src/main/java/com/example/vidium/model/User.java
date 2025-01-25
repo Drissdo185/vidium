@@ -1,4 +1,4 @@
-package com.yourblog.model;
+package com.example.vidium.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
