@@ -18,7 +18,7 @@ import java.time.LocalDateTime;
 public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
-    private final PasswordEncoder passwordEncoder;
+//    private final PasswordEncoder passwordEncoder;
 
     @Override
     public UserDto createUser(UserRequest createRequest){
